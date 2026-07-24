@@ -5,6 +5,13 @@ body{
     overflow: hidden;
 }
 
+.solar-system-container{
+    postition: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
 h1{
     font-family: sans-serif;
     font-weight: 100;
@@ -20,6 +27,15 @@ h1{
     bottom: 10px;
     left: 50%;
     margin-bottom: -80px;
+    top: 50%;
+    height: 100px;
+}
+
+orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%
 }
 
 #neptune{
