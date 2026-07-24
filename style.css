@@ -7,8 +7,8 @@ body{
 
 .solar-system-container{
     postition: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
 }
 
@@ -27,8 +27,6 @@ h1{
     bottom: 10px;
     left: 50%;
     margin-bottom: -80px;
-    top: 50%;
-    height: 100px;
 }
 
 orbit{
