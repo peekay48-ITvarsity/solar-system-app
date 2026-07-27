@@ -23,6 +23,10 @@ h1{
     font-size: 40px;
     text-shadow: 0 0 10px #000000;
     color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 #sun{
@@ -32,6 +36,7 @@ h1{
     bottom: 10px;
     left: 50%;
     margin-bottom: -80px;
+    border-radius: 50%;
 }
 
 orbit{
