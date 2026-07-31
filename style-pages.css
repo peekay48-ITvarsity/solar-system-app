@@ -32,6 +32,8 @@ p.intro{
     width: 100%;
 }
 
+/*================================ BOTTOM TABS =============================*/
+
 #tabs-bottom{
     position: fixed;
     bottom: 0;
