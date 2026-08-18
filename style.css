@@ -17,13 +17,15 @@ h1{
 
 #sun{
     position: absolute;
-    z-index: 1000;
-    width: 160px;
+    z-index: 5;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     margin-bottom: -80px;
 }
-
 
 /*================================= NEPTUNE ===============================*/
 
@@ -315,4 +317,71 @@ h1{
         transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
     }
+}
+
+.solar-system{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.orbit1{
+    width: 180px;
+    height: 180px;
+}
+
+.orbit2{
+    width: 280px;
+    height: 280px;
+}
+
+.orbit3{
+    width: 380px;
+    height: 380px;
+}
+
+.orbit4{
+    width: 480px;
+    height: 480px;
+}
+
+.orbit5{
+    width: 580px;
+    height: 580px;
+}
+
+.orbit6{
+    width: 680px;
+    height: 680px;
+}
+
+.orbit7{
+    width: 780px;
+    height: 780px;
+}
+
+.orbit8{
+    width: 880px;
+    height: 880px;
+}
+
+.planet{
+    position: absolute;
+    z-index: 10;
 }
