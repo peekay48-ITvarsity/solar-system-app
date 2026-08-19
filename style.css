@@ -44,6 +44,7 @@ h1{
     position: absolute;
     width: 1204px;
     height: 1204px;
+    bottom: -512px;
     top: 50%;
     left: 50%;
     margin-top: -602px;
@@ -76,6 +77,7 @@ h1{
     position: absolute;
     width: 1062px;
     height: 1062px;
+    bottom: -441px;
     top: 50%;
     left: 50%;
     margin-top: -531px;
@@ -107,6 +109,7 @@ h1{
     position: absolute;
     width: 876px;
     height: 876px;
+    bottom: -348px;
     top: 50%;
     left: 50%;
     margin-top: -438px;
@@ -138,6 +141,7 @@ h1{
     position: absolute;
     width: 656px;
     height: 656px;
+    bottom: -238px;
     top: 50%;
     left: 50%;
     margin-top: -328px;
@@ -169,6 +173,7 @@ h1{
     position: absolute;
     width: 508px;
     height: 508px;
+    bottom: -164px;
     top: 50%;
     left: 50%;
     margin-top: -254px;
@@ -190,7 +195,7 @@ h1{
     left: 50%;
     width: 50px;
     height: 50px;
-    margin: 34px;
+    margin: 36px;
     z-index: 1000;
     animation: spin-right 3s linear infinite;
     -webkit-animation: spin-right 3s linear infinite;
@@ -200,6 +205,7 @@ h1{
     position: absolute;
     width: 410px;
     height: 410px;
+    bottom: -115px;
     top: 50%;
     left: 50%;
     margin-top: -205px;
@@ -229,6 +235,7 @@ h1{
     position: absolute;
     width: 300px;
     height: 300px;
+    bottom: -60px;
     top: 50%;
     left: 50%;
     margin-top: -150px;
@@ -248,17 +255,18 @@ h1{
 #mercury{
     top: 0%;
     left: 50%;
-    width: 50px;
-    height: 50px;
-    margin: 16px;
+    width: 40px;
+    height: 40px;
+    margin: 8px;
     z-index: 1000;
 }
 
 #mercury-orbit{
     position: absolute;
-    z-index: 1000;
+    z-index: 1;
     width: 200px;
     height: 200px;
+    bottom: -10px;
     top: 50%;
     left: 50%;
     margin-top: -100px;
