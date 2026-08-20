@@ -47,9 +47,8 @@ h1{
     bottom: -512px;
     top: 50%;
     left: 50%;
-    margin-top: -602px;
     margin-left: -602px;
-    border: 1px dotted white;
+    border: 3px dotted white;
     border-radius: 50%;
     animation: spin-left 14s linear infinite;
     -webkit-animation: spin-left 14s linear infinite;
@@ -80,9 +79,8 @@ h1{
     bottom: -441px;
     top: 50%;
     left: 50%;
-    margin-top: -531px;
     margin-left: -531px;
-    border: 1px dotted white;
+    border: 3px dotted white;
     border-radius: 50%;
     animation: spin-left 15s linear infinite;
     -webkit-animation: spin-left 15s linear infinite;
@@ -112,9 +110,8 @@ h1{
     bottom: -348px;
     top: 50%;
     left: 50%;
-    margin-top: -438px;
     margin-left: -438px;
-    border: 1px dotted white;
+    border: 3px dotted white;
     border-radius: 50%;
     animation: spin-left 13s linear infinite;
     -webkit-animation: spin-left 13s linear infinite;
@@ -144,9 +141,8 @@ h1{
     bottom: -238px;
     top: 50%;
     left: 50%;
-    margin-top: -328px;
     margin-left: -328px;
-    border: 1px dotted white;
+    border: 3px dotted white;
     border-radius: 50%;
     animation: spin-left 10s linear infinite;
     -webkit-animation: spin-left 10s linear infinite;
@@ -176,9 +172,8 @@ h1{
     bottom: -164px;
     top: 50%;
     left: 50%;
-    margin-top: -254px;
     margin-left: -254px;
-    border: 1px dotted white;
+    border: 3px dotted white;
     border-radius: 50%;
     animation: spin-left 4s linear infinite;
     -webkit-animation: spin-left 4s linear infinite;
@@ -208,12 +203,11 @@ h1{
     bottom: -115px;
     top: 50%;
     left: 50%;
-    margin-top: -205px;
     margin-left: -205px;
-    border: 1px dotted white;
+    border: 3px dotted white;
     border-radius: 50%;
-    animation: spin-left 4s linear infinite;
-    -webkit-animation: spin-left 4s linear infinite;
+    animation: spin-left 5s linear infinite;
+    -webkit-animation: spin-left 5s linear infinite;
 }
 
 #mars-label{
@@ -238,9 +232,8 @@ h1{
     bottom: -60px;
     top: 50%;
     left: 50%;
-    margin-top: -150px;
     margin-left: -150px;
-    border: 1px dotted white;
+    border: 3px dotted white;
     border-radius: 50%;
     animation: spin-left 4s linear infinite;
     -webkit-animation: spin-left 4s linear infinite;
@@ -269,12 +262,11 @@ h1{
     bottom: -10px;
     top: 50%;
     left: 50%;
-    margin-top: -100px;
     margin-left: -100px;
-    border: 1px dotted white;
+    border: 3px dotted white;
     border-radius: 50%;
-    animation: spin-left 4s linear infinite;
-    -webkit-animation: spin-left 4s linear infinite;
+    animation: spin-left 2s linear infinite;
+    -webkit-animation: spin-left 2s linear infinite;
 }
 
 #mercury-label{
