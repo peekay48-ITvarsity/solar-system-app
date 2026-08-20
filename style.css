@@ -23,7 +23,6 @@ h1{
     height: 100px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     margin-bottom: -80px;
 }
 
@@ -42,7 +41,7 @@ h1{
     position: absolute;
     width: 1204px;
     height: 1204px;
-    top: 50%;
+    bottom: -512px;
     left: 50%;
     margin-left: -602px;
     border: 3px dotted white;
@@ -71,6 +70,7 @@ h1{
     position: absolute;
     width: 1062px;
     height: 1062px;
+    bottom: -441px;
     top: 50%;
     left: 50%;
     margin-left: -531px;
@@ -99,6 +99,7 @@ h1{
     position: absolute;
     width: 876px;
     height: 876px;
+    bottom: -348px;
     top: 50%;
     left: 50%;
     margin-left: -438px;
@@ -127,6 +128,7 @@ h1{
     position: absolute;
     width: 656px;
     height: 656px;
+    bottom: -441px;
     top: 50%;
     left: 50%;
     margin-left: -328px;
@@ -155,6 +157,7 @@ h1{
     position: absolute;
     width: 508px;
     height: 508px;
+    bottom: -164px;
     top: 50%;
     left: 50%;
     margin-left: -254px;
@@ -183,6 +186,7 @@ h1{
     position: absolute;
     width: 410px;
     height: 410px;
+    bottom: -115px;
     top: 50%;
     left: 50%;
     margin-left: -205px;
@@ -192,7 +196,7 @@ h1{
     -webkit-animation: spin-left 5s linear infinite;
 }
 
-#mars-label{
+#earth-label{
     bottom: 294px;
 }
 
@@ -209,6 +213,7 @@ h1{
     position: absolute;
     width: 300px;
     height: 300px;
+    bottom: -60px;
     top: 50%;
     left: 50%;
     margin-left: -150px;
@@ -236,6 +241,7 @@ h1{
     z-index: 1;
     width: 200px;
     height: 200px;
+    bottom: -10px;
     top: 50%;
     left: 50%;
     margin-left: -100px;
@@ -293,4 +299,9 @@ h1{
         transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
     }
+}
+
+.orbit{
+    transform: scale(0.65);
+    transform-origin: center center;
 }
