@@ -293,8 +293,3 @@ h1{
         -webkit-transform: rotate(360deg);
     }
 }
-
-.orbit{
-    transform: scale(0.65);
-    transform-origin: center center;
-}
