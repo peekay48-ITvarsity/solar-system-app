@@ -43,6 +43,7 @@ h1{
     width: 1204px;
     height: 1204px;
     bottom: -512px;
+    top: 50%;
     left: 50%;
     margin-left: -602px;
     border: 3px dotted white;
@@ -72,6 +73,7 @@ h1{
     width: 1062px;
     height: 1062px;
     bottom: -441px;
+    top: 50%;
     left: 50%;
     margin-left: -531px;
     border: 3px dotted white;
@@ -100,6 +102,7 @@ h1{
     width: 876px;
     height: 876px;
     bottom: -348px;
+    top: 50%;
     left: 50%;
     margin-left: -438px;
     border: 3px dotted white;
@@ -128,6 +131,7 @@ h1{
     width: 656px;
     height: 656px;
     bottom: -238px;
+    top: 50%;
     left: 50%;
     margin-left: -328px;
     border: 3px dotted white;
@@ -156,6 +160,7 @@ h1{
     width: 508px;
     height: 508px;
     bottom: -164px;
+    top: 50%;
     left: 50%;
     margin-left: -254px;
     border: 3px dotted white;
@@ -184,6 +189,7 @@ h1{
     width: 410px;
     height: 410px;
     bottom: -115px;
+    top: 50%;
     left: 50%;
     margin-left: -205px;
     border: 3px dotted white;
@@ -210,6 +216,7 @@ h1{
     width: 300px;
     height: 300px;
     bottom: -60px;
+    top: 50%;
     left: 50%;
     margin-left: -150px;
     border: 3px dotted white;
@@ -237,6 +244,7 @@ h1{
     width: 200px;
     height: 200px;
     bottom: -10px;
+    top: 50%;
     left: 50%;
     margin-left: -100px;
     border: 3px dotted white;
