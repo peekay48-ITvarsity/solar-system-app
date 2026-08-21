@@ -293,7 +293,6 @@ h1{
 }
 
 .orbit{
-    position: absolute;
     border-width: 1px;
     border-style: dashed;
     border-color: rgba(255, 255, 255, 0.3);
