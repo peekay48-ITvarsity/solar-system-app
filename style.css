@@ -294,7 +294,7 @@ h1{
 
 .orbit{
     position: absolute;
-    border: 1px solid rgba(255, 255, 255, 0.35);
-    border-radius: 50%;
-    pointer-events: none;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: rgba(255, 255, 255, 0.3);
 }
