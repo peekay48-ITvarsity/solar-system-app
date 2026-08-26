@@ -116,11 +116,15 @@ h1{
     position: absolute;
     width: 876px;
     height: 876px;
-    bottom: -348px;
+    
+    top: 50%;
     left: 50%;
-    margin-left: -438px;
+
+    transform: translate(-50%, -50%);
+    
     border: 3px dotted white;
     border-radius: 50%;
+    
     animation: spin-left 13s linear infinite;
     -webkit-animation: spin-left 13s linear infinite;
 }
@@ -147,11 +151,15 @@ h1{
     position: absolute;
     width: 656px;
     height: 656px;
-    bottom: -238px;
+    
+    top: 50%
     left: 50%;
-    margin-left: -328px;
+
+    transform: translate(-50%, -50%);
+    
     border: 3px dotted white;
     border-radius: 50%;
+    
     animation: spin-left 10s linear infinite;
     -webkit-animation: spin-left 10s linear infinite;
 }
@@ -178,11 +186,15 @@ h1{
     position: absolute;
     width: 508px;
     height: 508px;
-    bottom: -164px;
+    
+    top: 50%
     left: 50%;
-    margin-left: -254px;
+    
+    transform: translate(-50%, -50%);
+    
     border: 3px dotted white;
     border-radius: 50%;
+    
     animation: spin-left 4s linear infinite;
     -webkit-animation: spin-left 4s linear infinite;
 }
@@ -209,11 +221,15 @@ h1{
     position: absolute;
     width: 410px;
     height: 410px;
-    bottom: -115px;
+    
+    top: 50%;
     left: 50%;
-    margin-left: -205px;
+    
+    transform: translate(-50%, -50%);
+    
     border: 3px dotted white;
     border-radius: 50%;
+    
     animation: spin-left 5s linear infinite;
     -webkit-animation: spin-left 5s linear infinite;
 }
@@ -238,11 +254,15 @@ h1{
     position: absolute;
     width: 300px;
     height: 300px;
-    bottom: -60px;
+    
+    top: 50%
     left: 50%;
-    margin-left: -150px;
+    
+    transform: translate(-50%, -50%);
+    
     border: 3px dotted white;
     border-radius: 50%;
+    
     animation: spin-left 4s linear infinite;
     -webkit-animation: spin-left 4s linear infinite;
 }
@@ -265,14 +285,17 @@ h1{
 
 #mercury-orbit{
     position: absolute;
-    z-index: 1;
     width: 200px;
     height: 200px;
-    bottom: -10px;
+    
+    top: 50%;
     left: 50%;
-    margin-left: -100px;
+    
+    transform: translate(-50%, -50%);
+    
     border: 3px dotted white;
     border-radius: 50%;
+    
     animation: spin-left 2s linear infinite;
     -webkit-animation: spin-left 2s linear infinite;
 }
