@@ -28,12 +28,9 @@ h1{
     position: absolute;
     width: 120px;
     height: 120px;
-    
     top: 50%;
     left: 50%;
-    
     transform: translate(-50%, -50%);
-    
     margin: 0;
     z-index: 2000;
 }
@@ -63,10 +60,7 @@ h1{
 }
 
 #neptune-label{
-    position: absolute;
-    top: calc(50% - 620px);
-    left: 50%;
-    transform: translateX(-50%)
+    bottom: 692px;
 }
 
 
@@ -95,10 +89,7 @@ h1{
 }
 
 #uranus-label{
-    position: absolute;
-    top: calc(50% - 550px);
-    left: 50%;
-    transform: transformX(-50%);
+    bottom: 620px;
 }
 
 /*=============================== SATURN =============================*/
@@ -116,24 +107,17 @@ h1{
     position: absolute;
     width: 876px;
     height: 876px;
-    
-    top: 50%;
+    bottom: -348px;
     left: 50%;
-
-    transform: translate(-50%, -50%);
-    
+    margin-left: -438px;
     border: 3px dotted white;
     border-radius: 50%;
-    
     animation: spin-left 13s linear infinite;
     -webkit-animation: spin-left 13s linear infinite;
 }
 
 #saturn-label{
-    position: absolute;
-    top: calc(50% - 455px);
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 527px;
 }
 
 /*================================ JUPITER ============================*/
@@ -151,24 +135,17 @@ h1{
     position: absolute;
     width: 656px;
     height: 656px;
-    
-    top: 50%
+    bottom: -238px;
     left: 50%;
-
-    transform: translate(-50%, -50%);
-    
+    margin-left: -328px;
     border: 3px dotted white;
     border-radius: 50%;
-    
     animation: spin-left 10s linear infinite;
     -webkit-animation: spin-left 10s linear infinite;
 }
 
 #jupiter-label{
-    position: absolute;
-    top: calc(50% - 345px);
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 417px;
 }
 
 /*=================================== MARS ================================*/
@@ -186,24 +163,17 @@ h1{
     position: absolute;
     width: 508px;
     height: 508px;
-    
-    top: 50%
+    bottom: -164px;
     left: 50%;
-    
-    transform: translate(-50%, -50%);
-    
+    margin-left: -254px;
     border: 3px dotted white;
     border-radius: 50%;
-    
     animation: spin-left 4s linear infinite;
     -webkit-animation: spin-left 4s linear infinite;
 }
 
 #mars-label{
-    position: absolute;
-    top: calc(50% - 270px);
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 343px;
 }
 
 /*=================================== EARTH ================================*/
@@ -221,24 +191,17 @@ h1{
     position: absolute;
     width: 410px;
     height: 410px;
-    
-    top: 50%;
+    bottom: -115px;
     left: 50%;
-    
-    transform: translate(-50%, -50%);
-    
+    margin-left: -205px;
     border: 3px dotted white;
     border-radius: 50%;
-    
     animation: spin-left 5s linear infinite;
     -webkit-animation: spin-left 5s linear infinite;
 }
 
 #earth-label{
-    position: absolute;
-    top: calc(50% - 220px);
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 294px;
 }
 
 /*===================================== VENUS =================================*/
@@ -254,24 +217,17 @@ h1{
     position: absolute;
     width: 300px;
     height: 300px;
-    
-    top: 50%
+    bottom: -60px;
     left: 50%;
-    
-    transform: translate(-50%, -50%);
-    
+    margin-left: -150px;
     border: 3px dotted white;
     border-radius: 50%;
-    
     animation: spin-left 4s linear infinite;
     -webkit-animation: spin-left 4s linear infinite;
 }
 
 #venus-label{
-    position: absolute;
-    top: calc(50% - 165px);
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 239px;
 }
 
 /*============================================ MERCURY ================================*/
@@ -285,26 +241,20 @@ h1{
 
 #mercury-orbit{
     position: absolute;
+    z-index: 1;
     width: 200px;
     height: 200px;
-    
-    top: 50%;
+    bottom: -10px;
     left: 50%;
-    
-    transform: translate(-50%, -50%);
-    
+    margin-left: -100px;
     border: 3px dotted white;
     border-radius: 50%;
-    
     animation: spin-left 2s linear infinite;
     -webkit-animation: spin-left 2s linear infinite;
 }
 
 #mercury-label{
-    position: absolute;
-    top: cal(50% - 115px);
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 189px;
 }
 
 
@@ -314,6 +264,7 @@ h1{
     position: relative;
     width: 100%;
     min-height: 100vh;
+    transform: scale(0.8);
     top: 0;
 }
 
@@ -379,11 +330,11 @@ h1{
     position: relative;
     width: 100%;
     height: 100vh;
-    
-    top: 0;
-    left: 0;
-    
+    top: 50%;
+    left: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+   transform: translateY(100px);
 }
