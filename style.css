@@ -15,10 +15,18 @@ body{
 }
 
 h1{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    z-index: 20;
+    
     font-family: sans-serif;
-    font-weight: 100;
-    font-size: 40px;
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: 1px;
+    
     text-shadow: 0 0 10px #000000;
+    
     color: white;
 }
 
@@ -335,6 +343,4 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-
-   transform: translateY(100px);
 }
