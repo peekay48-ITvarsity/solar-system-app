@@ -292,11 +292,6 @@ h1{
     color: white;
 }
 
-.label-box a:hover{
-    color: #00ffff;
-    text-shadow: 0 0 10px #00ffff;
-}
-
 /*================================== ANIMATION ===========================*/
 
 @keyframes spin-left{
